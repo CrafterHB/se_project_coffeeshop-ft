@@ -194,7 +194,7 @@
   border: none;
 }
 
-.form__fieldset__label {
+.form__fieldset_label {
   margin-bottom: 8px;
 
   font-family: Inter, Arial, Helvetica, sans-serif;
