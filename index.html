@@ -99,6 +99,57 @@
             </p>
           </li>
         </ul>
+
+        <section class="reservation">
+          <h3 class="reservation__title">Book a Table</h3>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__fieldset__label">Name *</label>
+              <input
+                id="name"
+                class="form__input form__input_type_name"
+                placeholder="Name Surname"
+              />
+
+              <label for="guest" class="form__fieldset__label"
+                >Number of guests *</label
+              >
+              <input
+                id="guest"
+                type="number"
+                min="1"
+                max="8"
+                placeholder="1-8"
+                class="form__input form__input_type_guest"
+              />
+
+              <label for="date" class="form__fieldset__label"
+                >Date & time *</label
+              >
+              <input
+                id="date"
+                type="date"
+                class="form__input form__input_type_date"
+              />
+
+              <label for="email" class="form__fieldset__label">Email *</label>
+              <input
+                id="email"
+                type="email"
+                class="form__input form__input_type_email"
+                placeholder="email@email.com"
+              />
+              <button class="form__button" type="submit">Book a table</button>
+            </fieldset>
+
+            <fieldset class="form__checkbox__wrapper">
+              <input id="terms" class="form__checkbox" type="checkbox" />
+              <label for="terms" class="form__checkbox__label"
+                >I agree with the terms and conditions.</label
+              >
+            </fieldset>
+          </form>
+        </section>
       </main>
 
       <footer class="footer">
