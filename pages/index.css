@@ -252,6 +252,48 @@
   margin-right: 12px;
 }
 
+.menu {
+  background-color: #fff;
+  background-image: url("../images/background_menu.svg");
+  size: cover;
+
+  color:black;
+}
+
+.cards{
+  padding: 100px 100px 100px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 100px
+}
+
+.card{
+  width:540px;
+}
+
+.card__title{
+  margin-bottom: 32px;
+}
+
+.card__list{
+  padding-left: 0;
+}
+
+.card__list-item{
+  display: flex;
+  list-style-type: none;
+
+  margin-bottom: 16px;
+}
+
+.card__list-divider{
+  flex-grow: 1;
+  border-bottom: 1px solid #000000
+}
+
 .footer {
   padding: 60px 80px;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
